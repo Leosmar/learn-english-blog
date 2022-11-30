@@ -1,0 +1,70 @@
+.containerLayout {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100% auto;
+
+    max-width: 1000px;
+    min-height: 80vh;
+    margin: 0 auto;
+
+}
+
+.header {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.containerBackImage {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    z-index: -1;
+    animation: scale 5s infinite linear;
+}
+
+.backImage {
+    width: inherit;
+    height: inherit;
+}
+
+.title {
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-family: var(--title);
+    font-style: normal;
+}
+
+.contentArticle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.05);
+
+    }
+    50% {
+        transform: scale(1.1);
+
+    }
+    75% {
+        transform: scale(1.05);
+
+    }
+    100% {
+        transform: scale(1);
+
+    }
+}
+

@@ -1,0 +1,96 @@
+.container {
+    padding: 1rem;
+    min-height: 78vh;
+}
+.backBtn {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: #303030;
+    text-decoration: none;
+}
+.backBtn:hover {
+    text-decoration: underline;
+} 
+.container > h1, .container > h2, .container > h3 {
+    font-family: var(--title);
+    margin: 0.5rem 0;
+} 
+
+.container > ul, .container > ol { 
+    font-size: 1rem;
+    margin-left: 2rem;
+    font-family: "Open Sans", sans-serif;
+    color: rgba(59,130,246);;
+}
+
+.container li {
+    margin-bottom: 0.2rem;
+}
+
+.container > h1 {
+    font-size: 2rem;
+}
+
+.container > h2 { 
+    font-size: 1.5rem;
+}
+
+.container > h3 { 
+    font-size: 1.3rem;
+}
+
+.container > p {
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+ 
+}
+
+.container > p > strong {
+    font-size: 1rem;
+    
+}
+
+.container > p > em > strong {
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.container table {
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: auto;
+    border: thin solid #ccc;
+    padding: 0.1rem;
+    font-family: "Open Sans", sans-serif;
+    margin: 2rem 0;
+    
+}
+
+.container th, .container td{
+    border-bottom: thin solid #ccc;
+    border-right: thin solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+}
+@media only screen and (max-width: 400px) {
+
+    .container > h1 {
+        font-size: 1.5rem;
+    }
+    
+    .container > h2 { 
+        font-size: 1.2rem;
+    
+    }
+
+    .container > h2 { 
+        font-size: 1.1rem;
+
+    }
+    .container table {
+        font-size: 0.8rem;
+     }
+  }

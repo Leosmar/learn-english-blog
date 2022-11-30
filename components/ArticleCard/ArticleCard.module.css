@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    border: thin solid #ccc;
+    max-width: 300px;
+    min-height: 300px;
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-bottom: 0.2rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-family: var(--title), sans-serif;
+}
+
+.article { 
+    font-family: var(--title), sans-serif;
+    font-weight: 300;
+}
+
+.readMore {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
