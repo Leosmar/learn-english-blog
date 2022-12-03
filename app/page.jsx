@@ -1,3 +1,5 @@
+"use client"
+
 import styles from "./HomePage.module.css";
 import ArticleCard from "../components/ArticleCard/ArticleCard";
 import getPosts from "../lib/getPosts";
