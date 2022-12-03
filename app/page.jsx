@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
       <header className={styles.header}>
         <h1 className={styles.title}>
-          <i>Learn english</i> <br /> UPT Jose Felix Ribas
+          <i>Learn english</i> <br /> UPT Jose Felix Ribas esto no va
         </h1>
       </header>
     
