@@ -13,14 +13,12 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <head>
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
         <title>English blog</title>
       </head>
       <body className={SpaceGroteskTitle.variable}>
-        <main className={styles.containerLayout}>
-          {children}
-        </main>
+        <main className={styles.containerLayout}>{children}</main>
         <Footer />
-
       </body>
     </html>
   );

@@ -1,8 +1,6 @@
 .container {
     display: flex;
     border: thin solid #ccc;
-    max-width: 300px;
-    min-height: 300px;
     padding: 1rem;
     margin: 1rem;
     text-decoration: none;
@@ -27,3 +25,4 @@
     justify-content: flex-end;
     padding: 0.5rem;
 }
+

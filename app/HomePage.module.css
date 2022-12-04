@@ -1,12 +1,7 @@
 .containerLayout {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 100% auto;
-
     max-width: 1000px;
     min-height: 80vh;
     margin: 0 auto;
-
 }
 
 .header {
@@ -37,34 +32,12 @@
     font-style: normal;
 }
 
-.contentArticle {
+/* .contentArticle {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-}
+} */
 
 
 
-@keyframes scale {
-    0% {
-        transform: scale(1);
-    }
-    25% {
-        transform: scale(1.05);
-
-    }
-    50% {
-        transform: scale(1.1);
-
-    }
-    75% {
-        transform: scale(1.05);
-
-    }
-    100% {
-        transform: scale(1);
-
-    }
-}
 
